@@ -1,4 +1,7 @@
-Password Generator
+*Password Generator*
+
+[View Live]()
+
 A sleek and modern password generator built with HTML, CSS, and vanilla JavaScript. This web application allows users to create strong, secure, and customizable passwords with ease. The interface is clean, responsive, and user-friendly, providing real-time feedback on password strength.
 
 Features
