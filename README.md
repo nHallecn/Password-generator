@@ -1,30 +1,32 @@
-**Password Generator**
+## 🔒 Robust Password Generator
 
-[View Live](https://nhallecn.github.io/Password-generator/)
+A secure and feature-rich **Password Generator** application built with vanilla **HTML**, **CSS**, and **JavaScript**. This tool allows users to create strong, customized passwords based on their desired length and character requirements.
 
-A sleek and modern password generator built with HTML, CSS, and vanilla JavaScript. This web application allows users to create strong, secure, and customizable passwords with ease. The interface is clean, responsive, and user-friendly, providing real-time feedback on password strength.
+### 🚀[View Live](https://nhallecn.github.io/Password-generator/)
 
-Features
-Customizable Length: Generate passwords from 6 to 24 characters using a simple slider.
+### ✨ Features
 
-Character Options: Include or exclude uppercase letters, lowercase letters, numbers, and symbols.
+* **Customizable Length:** Use a slider to set the password length between 6 and 24 characters.
+* **Character Options:** Select which character sets to include:
+    * Uppercase Letters (A-Z)
+    * Lowercase Letters (a-z)
+    * Numbers (0-9)
+    * Symbols (!@#$%, etc.)
+* **Real-time Strength Meter:** Visually assesses and labels the password strength (Weak, Medium, Strong) based on length and character diversity.
+* **One-Click Copy:** Easily copy the generated password to the clipboard with a dedicated button and a temporary "Copied!" tooltip.
+* **Guaranteed Inclusion:** Ensures at least one character from each selected category is included for maximum randomness.
+* **Responsive Design:** Optimized for use on both mobile and desktop screens.
 
-One-Click Copy: Easily copy the generated password to the clipboard.
+### 🛠️ Technologies Used
 
-Strength Meter: A visual indicator provides immediate feedback on the strength of the password based on length and character types (Weak, Medium, Strong).
+* **HTML5** (Structure)
+* **CSS3** (Styling, including a clean, modern design with a gradient background)
+    * Uses **CSS Variables** for an easily changeable color theme.
+* **Vanilla JavaScript** (All generation logic, DOM manipulation, and strength calculation)
+* **[Font Awesome](https://fontawesome.com/)** (Icons for copy and generate buttons)
 
-Responsive Design: The layout is fully responsive and works beautifully on all devices, from desktops to mobile phones.
+### 🚀 Getting Started
 
-Secure Generation: Uses Math.random() for secure, client-side password creation. No data is ever sent to a server.
-
-Technologies Used
-HTML5: For the structure and content of the web page.
-
-CSS3: For styling, layout (including Flexbox and Grid), and animations.
-
-Vanilla JavaScript: For all the functional logic, including password generation, UI updates, and event handling.
-
-Font Awesome: For icons.
-
-How to Use
-Since this is a client-side application with no dependencies, you can run it directly in your browser.
+1.  **Clone the repository.**
+2.  Open `index.html` in your web browser.
+3.  Adjust the settings (length and character types) and click **"Generate Password"**.
